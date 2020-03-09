@@ -1,0 +1,46 @@
+/*--------------------------
+-----Navbar-----------------
+--------------------------*/
+.navigation {
+	background-color: #e7e7e7;
+}
+
+.navigation .brand {
+	font-family: "Orbitron", sans-serif;
+	padding-left: 80px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 1rem;
+}
+
+#navbarNav {
+	padding-right: 80px;
+}
+
+.items li {
+	font-size: 0.9rem;
+	padding: 0 1.4rem;
+}
+
+.items a:hover {
+	animation: fadeIn 2s;
+}
+
+.title {
+	margin-bottom: 40px;
+}
+
+.content {
+	margin: 0px 20px 60px 20px;
+	letter-spacing: 0.1rem;
+}
+
+.icon {
+	padding: 10px !important;
+}
+
+.footer {
+	background-color: #e7e7e7;
+	text-align: center;
+	padding: 40px 0;
+}
