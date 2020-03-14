@@ -99,7 +99,6 @@ header {
 /* --------About--------- */
 
 .about {
-  height: 70vh;
   width: 100vw;
   padding: 100px 0;
   margin-top: 150px;
@@ -163,7 +162,7 @@ header {
   .hero-text-box span .typer {
     width: 250px;
     top: 50%;
-    left: 50%;
+    left: 45%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
@@ -173,7 +172,6 @@ header {
   }
   
   .about {
-		height: 30rem;
 		width: 100vw;
 		padding: 50px 0;
 		margin-top: 100px;
