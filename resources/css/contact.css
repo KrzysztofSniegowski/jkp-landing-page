@@ -44,3 +44,43 @@
 	text-align: center;
 	padding: 40px 0;
 }
+
+@media only screen and (max-width: 992px) {
+	#description {
+		margin-bottom: 30px;
+	}
+
+	.mapouter {
+		position: relative;
+		text-align: right;
+		height: 500px;
+		width: 700px;
+	}
+
+	.gmap_canvas {
+		overflow: hidden;
+		background: none !important;
+		height: 500px;
+		width: 700px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#description {
+		margin-bottom: 30px;
+	}
+
+	.mapouter {
+		position: relative;
+		text-align: right;
+		height: 500px;
+		width: 450px;
+	}
+
+	.gmap_canvas {
+		overflow: hidden;
+		background: none !important;
+		height: 500px;
+		width: 450px;
+	}
+}
