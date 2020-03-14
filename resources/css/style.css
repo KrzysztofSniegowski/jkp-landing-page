@@ -176,7 +176,7 @@ header {
   }
 
   .navigation .brand {
-     padding-left: 40px;
+     padding-left: 20px;
   }
   
   .about {
@@ -186,9 +186,5 @@ header {
 		background-image: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url(../img/Finance.jpg);
 		background-size: cover;
 		background-attachment: fixed;
-	}
-	
-  .navigation .brand {
-	padding-left: 40px;
 	}
 }
