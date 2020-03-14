@@ -66,6 +66,10 @@
 }
 
 @media only screen and (max-width: 650px) {
+	.navigation .brand {
+		padding-left: 20px;
+	}
+	
 	#description {
 		margin-bottom: 30px;
 	}
