@@ -20,6 +20,7 @@ header {
   background-size: cover;
 
   background-blend-mode: multiply;
+  background-position: top;
   background-attachment: fixed;
 }
 
