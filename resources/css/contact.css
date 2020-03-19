@@ -36,6 +36,17 @@
 	margin-bottom: 60px;
 }
 
+.icon {
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	font-size: 150%;
+	vertical-align: middle;
+	margin-top: -5px;
+	color: rgba(81,166,21,1)
+}
+
 .content {
 	margin: 0px 20px 60px 20px;
 	letter-spacing: 0.1rem;
@@ -63,21 +74,21 @@
 
 @media only screen and (max-width: 992px) {
 	#description {
-		margin-bottom: 30px;
+		margin: 40px 0px;
 	}
 
 	.mapouter {
 		position: relative;
 		text-align: right;
 		height: 500px;
-		width: auto;
+		width: 700px;
 	}
 
 	.gmap_canvas {
 		overflow: hidden;
 		background: none !important;
 		height: 500px;
-		width: auto;
+		width: 700px;
 	}
 }
 
@@ -87,7 +98,7 @@
 	}
 
 	#description {
-		margin-bottom: 30px;
+		margin: 40px 0px;
 	}
 
 	.mapouter {
