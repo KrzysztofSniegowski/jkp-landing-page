@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 /*--------------------------
 -----Navbar-----------------
 --------------------------*/
@@ -27,7 +33,7 @@
 }
 
 .title {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .content {
@@ -35,8 +41,18 @@
 	letter-spacing: 0.1rem;
 }
 
-.icon {
-	padding: 10px !important;
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 500px;
+	width: 600px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 500px;
+	width: 600px;
 }
 
 .footer {
@@ -54,14 +70,14 @@
 		position: relative;
 		text-align: right;
 		height: 500px;
-		width: 700px;
+		width: auto;
 	}
 
 	.gmap_canvas {
 		overflow: hidden;
 		background: none !important;
 		height: 500px;
-		width: 700px;
+		width: auto;
 	}
 }
 
@@ -69,7 +85,7 @@
 	.navigation .brand {
 		padding-left: 20px;
 	}
-	
+
 	#description {
 		margin-bottom: 30px;
 	}
@@ -78,13 +94,13 @@
 		position: relative;
 		text-align: right;
 		height: 500px;
-		width: 450px;
+		width: auto;
 	}
 
 	.gmap_canvas {
 		overflow: hidden;
 		background: none !important;
 		height: 500px;
-		width: 450px;
+		width: auto;
 	}
 }
